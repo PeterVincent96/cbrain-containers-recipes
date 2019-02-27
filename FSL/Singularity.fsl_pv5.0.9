@@ -21,8 +21,8 @@ forked version additionally installs NiBabel.
 %post
   apt-get update
   apt-get install -y fsl-complete
-  apt install python-pip
-  pip install nibabel
+  apt install -y python-pip
+  pip install -y nibabel
 
 %environment
   export FSLDIR=/usr/share/fsl/5.0 
